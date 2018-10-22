@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+<head>
+<title>Free Code Camp Url Shortener</title>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="/css/My css.css" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body class="text-center">
+<h2> URL Shortener Microservice Courtesy of A Pretorius</h2>
+<img src="/Pictures/chiseled-clipart-stone-chisel-3.jpg">
+<h2>Shortening url's one at a time</h2>
+
+<h3>
+1. User Story:
+I can POST a URL to https://shorterweb.herokuapp.com/new/ and I will receive a shortened URL in the JSON response.
+Example : {"originalurl":"https://www.google.com","shorturl": "hscP7U"}<br>
+2. If I pass an invalid URL that doesn't follow the http(s)://www.example.com(/more/routes) format, the JSON response will contain an error like {"error":"invalid URL"}
+When I visit the shortened URL, it will redirect me to my original link.<br>
+3. Short URL Creation
+Example Usage:
+xample: POST https://shorterweb.herokuapp.com/new/https://www.google.com
+https://shorterweb.herokuapp.com/AWlNU7
+Will Redirect to:
+https://www.freecodecamp.com
+</h3>
+
+<h3>This project was build with following libraries node.js, mongoose, url-exist, cors, bodyparser, express, shortid, css ,html.</h3> 
+
+<h3><a href="https://freecodecamp.org" target="blank">This Project and other great learning library's can be found here at Free Code Camp</a></h3>
+
+
+
+</body>
+</html>

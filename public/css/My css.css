@@ -1,0 +1,27 @@
+body{
+	text-align:center;
+}
+
+img{
+	width:340px;
+	height:340px;
+}
+h3{
+	color:#273746;  
+}
+
+h3 a,a:hover, a:active, a:visited, a:focus{
+	cursor: pointer;
+	text-decoration:none;
+	color:red;
+}
+
+h3 a:active{
+	color:black;
+}
+
+
+h2{
+	color:green;
+	font-family: 'Indie Flower', cursive;
+}

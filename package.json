@@ -1,0 +1,28 @@
+{
+  "name": "testurl",
+  "version": "1.0.0",
+  "description": "my test url shortener",
+  "main": "ap1.js",
+  "engines": {
+    "node": "8.11.1",
+    "npm": "6.0.0"
+  },
+  "scripts": {
+    "start": "node ap1.js"
+  },
+  "keywords": [
+    "url",
+    "shortener"
+  ],
+  "author": "\"Anton Pretorius\"",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.0.0",
+    "express": "^4.16.3",
+    "mongoose": "^5.2.17",
+    "shortid": "^2.2.13",
+    "url-exists": "^1.0.3"
+  }
+}

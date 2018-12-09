@@ -23,7 +23,7 @@ let shorterUrl;
 let shortenurl;
 let endPoint;
 
-app.get('/new/:test(*)',(req,res,next)=>{	
+app.get('/new/:test(*)',(req,res,next)=>{
     longUrl = req.params.test;
 	console.log(longUrl);
 
@@ -31,7 +31,11 @@ app.get('/new/:test(*)',(req,res,next)=>{
 
 if(!longUrl.includes(substring)){
 		longUrl = "https://" + longUrl;
+	}else{
+		res.send({error:"Invalid Url"})
 	}
+
+
 	
    urlExists(longUrl,(err, exists) =>{
        if(exists){
